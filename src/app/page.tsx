@@ -3,28 +3,30 @@ import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import Avatar from '../components/Avatar';
+
 const Home: React.FC = () => {
   return (
-<div className="relative w-full h-screen">
-  <div className="absolute top-4 left-4 w-[25%] bg-white bg-opacity-90 p-6 rounded-lg shadow-lg z-10">
-    <h1 className="text-xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">
-    Instructions:
-    </h1>
-    <ul className="list-disc pl-5 space-y-2 text-base text-gray-800">
-      <li className="transition-transform transform hover:scale-105 hover:text-purple-600">
-        Hover the cursor over the avatar to enlarge it.
-      </li>
-      <li className="transition-transform transform hover:scale-105 hover:text-pink-500">
-        Click on the avatar to rotate it clockwise by 45 degrees.
-      </li>
-      <li className="transition-transform transform hover:scale-105 hover:text-purple-600">
-        Hover the cursor over the avatar, hold it, and move it left and right to view the avatar from different sides.
-      </li>
-      <li className="transition-transform transform hover:scale-105 hover:text-pink-500">
-        Refresh the page to restore everything to its original state.
-      </li>
-    </ul>
-  </div>
+    <div className="relative w-full h-screen">
+      <div className="absolute top-4 left-4 w-full sm:w-[50%] md:w-[25%] bg-white bg-opacity-90 p-6 rounded-lg shadow-lg z-10">
+        <h1 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">
+          Instructions:
+        </h1>
+        <ul className="list-disc pl-5 space-y-2 text-sm sm:text-base text-gray-800">
+          <li className="transition-transform transform hover:scale-105 hover:text-purple-600">
+            Hover the cursor over the avatar to enlarge it.
+          </li>
+          <li className="transition-transform transform hover:scale-105 hover:text-pink-500">
+            Click on the avatar to rotate it clockwise by 45 degrees.
+          </li>
+          <li className="transition-transform transform hover:scale-105 hover:text-purple-600">
+            Hover the cursor over the avatar, hold it, and move it left and right to view the avatar from different sides.
+          </li>
+          <li className="transition-transform transform hover:scale-105 hover:text-pink-500">
+            Refresh the page to restore everything to its original state.
+          </li>
+        </ul>
+      </div>
+
       <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
         <Canvas
           shadows
