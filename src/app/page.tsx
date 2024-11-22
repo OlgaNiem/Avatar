@@ -7,7 +7,6 @@ import Avatar from '../components/Avatar';
 const Home: React.FC = () => {
   return (
     <div className="relative w-full h-screen flex flex-col sm:flex-row">
-
       <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
         <Canvas
           shadows
@@ -33,7 +32,7 @@ const Home: React.FC = () => {
         </Canvas>
       </div>
 
-      <div className="absolute bottom-4 left-4 w-full sm:w-[25%] bg-white bg-opacity-90 p-6 rounded-lg shadow-lg z-10 sm:bottom-0 sm:left-auto sm:top-0 sm:mr-4 sm:mt-0 sm:ml-4 sm:mb-0 sm:space-y-2">
+      <div className="absolute bottom-4 left-4 w-full sm:w-[40%] md:w-[30%] lg:w-[20%] bg-white bg-opacity-90 p-4 sm:p-6 rounded-lg shadow-lg z-10 sm:static sm:left-auto sm:right-4 sm:bottom-0 sm:mt-4">
         <h1 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">
           Instructions:
         </h1>
