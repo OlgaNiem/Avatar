@@ -32,7 +32,7 @@ const Home: React.FC = () => {
         </Canvas>
       </div>
 
-      <div className="absolute bottom-4 left-4 w-full sm:w-[40%] md:w-[30%] lg:w-[20%] bg-white bg-opacity-90 p-4 sm:p-6 rounded-lg shadow-lg z-10 sm:static sm:left-auto sm:right-4 sm:bottom-0 sm:mt-4">
+      <div className="absolute bottom-4 left-4 w-full sm:w-[20%] bg-white bg-opacity-90 p-6 rounded-lg shadow-lg z-10">
         <h1 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">
           Instructions:
         </h1>
