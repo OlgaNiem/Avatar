@@ -7,7 +7,7 @@ import Avatar from '../components/Avatar';
 const Home: React.FC = () => {
   return (
     <div className="relative w-full h-screen flex flex-col sm:flex-row">
-      <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
+      <div className="absolute inset-0 flex items-center justify-center sm:top-0 sm:bottom-0">
         <Canvas
           shadows
           gl={{ alpha: true }}
